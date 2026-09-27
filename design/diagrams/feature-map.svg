@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-labelledby="t d">
+<title id="t">Feature map — Run-time File Saving and Loading</title>
+<desc id="d">Observed features solid; absent or pending dashed. CORE 7 of 16. IDs: F-01..F-16</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e6e9ef"/></marker><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f2994a"/></marker></defs>
+<rect width="960" height="540" fill="#1f2430"/>
+<text x="24" y="34" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#e6e9ef">Feature map — Run-time File Saving and Loading</text>
+<text x="24" y="56" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#9aa3b2">Observed features solid; absent or pending dashed. CORE 7 of 16.</text>
+<text x="936" y="526" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">solid = observed in code · dashed = proposed / not present · refs: F-01..F-16</text>
+<line x1="214.0" y1="109.6" x2="256.0" y2="107.1" stroke="#e6e9ef" stroke-width="1.8" marker-end="url(#a)"/>
+<line x1="146.4" y1="144.0" x2="321.3" y2="336.0" stroke="#e6e9ef" stroke-width="1.8" marker-end="url(#a)"/>
+<line x1="434.0" y1="213.2" x2="486.0" y2="217.4" stroke="#e6e9ef" stroke-width="1.8" marker-end="url(#a)"/>
+<line x1="416.9" y1="284.0" x2="499.8" y2="254.0" stroke="#e6e9ef" stroke-width="1.8" marker-end="url(#a)"/>
+<line x1="674.0" y1="232.7" x2="716.0" y2="236.1" stroke="#e6e9ef" stroke-width="1.8" marker-end="url(#a)"/>
+<line x1="580.0" y1="254.0" x2="580.0" y2="416.0" stroke="#f2994a" stroke-width="1.8" stroke-dasharray="6 5" marker-end="url(#p)"/>
+<line x1="825.0" y1="344.0" x2="825.0" y2="416.0" stroke="#f2994a" stroke-width="1.8" stroke-dasharray="6 5" marker-end="url(#p)"/>
+<rect x="30" y="90" width="180" height="50" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="120.0" y="112" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-01 path + Browse</text>
+<text x="120.0" y="128" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">IMPORTANT</text>
+<rect x="260" y="80" width="170" height="44" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="345.0" y="102" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-02 images</text>
+<text x="345.0" y="118" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">CORE</text>
+<rect x="260" y="132" width="170" height="44" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="345.0" y="154" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-03 audio</text>
+<text x="345.0" y="170" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">CORE</text>
+<rect x="260" y="184" width="170" height="44" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="345.0" y="206" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-04 3D scenes</text>
+<text x="345.0" y="222" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">CORE</text>
+<rect x="260" y="236" width="170" height="44" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="345.0" y="258" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-05 fonts</text>
+<text x="345.0" y="274" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">CORE</text>
+<rect x="260" y="288" width="170" height="44" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="345.0" y="310" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-06 ZIP</text>
+<text x="345.0" y="326" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">CORE</text>
+<rect x="260" y="340" width="170" height="44" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="345.0" y="362" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-07 text</text>
+<text x="345.0" y="378" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">CORE</text>
+<rect x="490" y="200" width="180" height="50" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="580.0" y="222" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-08 export</text>
+<text x="580.0" y="238" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">CORE</text>
+<rect x="720" y="80" width="210" height="50" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="825.0" y="102" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-09 errors + lockout</text>
+<text x="825.0" y="118" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">Walker · 30 + 15</text>
+<rect x="720" y="150" width="210" height="50" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="825.0" y="172" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-10 preview cleanup</text>
+<text x="825.0" y="188" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">Walker</text>
+<rect x="720" y="220" width="210" height="50" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="825.0" y="242" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-11 ZIP dir fix</text>
+<text x="825.0" y="258" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">Walker · 16/16</text>
+<rect x="720" y="290" width="210" height="50" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="825.0" y="312" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-12 suites</text>
+<text x="825.0" y="328" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">28 · 20 · 30 · 15</text>
+<rect x="30" y="200" width="180" height="50" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="120.0" y="222" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-13 font audit</text>
+<text x="120.0" y="238" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">done</text>
+<rect x="490" y="420" width="180" height="50" rx="8" fill="#2a3040" stroke="#f2994a" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="580.0" y="442" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-14 export failures</text>
+<text x="580.0" y="458" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">absent</text>
+<rect x="720" y="420" width="210" height="50" rx="8" fill="#2a3040" stroke="#f2994a" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="825.0" y="442" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">F-16 two 4K films</text>
+<text x="825.0" y="458" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">pending</text>
+</svg>

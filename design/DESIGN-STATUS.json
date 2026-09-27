@@ -1,0 +1,51 @@
+{
+  "game": "walker-loading-runtime-save-load",
+  "mode": "recovered",
+  "revision": 1,
+  "design_version": "0.1.0-recovered",
+  "date": "2026-09-27",
+  "recovered_from": {
+    "path": "godot/",
+    "engine_detected": "Godot 4.7.2.stable (gl_compatibility)",
+    "pass": "reverse, silent",
+    "git_history": "not consulted (no git run in this pass)"
+  },
+  "engine": {
+    "name": "godot",
+    "version": "4.7.2.stable",
+    "renderer": "gl_compatibility"
+  },
+  "gates": {
+    "vision": {
+      "signed_by": null,
+      "date": null,
+      "revision": null
+    },
+    "systems": {
+      "signed_by": null,
+      "date": null,
+      "revision": null
+    },
+    "world": {
+      "signed_by": null,
+      "date": null,
+      "revision": null
+    },
+    "scope": {
+      "signed_by": null,
+      "date": null,
+      "revision": null
+    }
+  },
+  "edu_track": false,
+  "human_playtests": 0,
+  "notes": "Silent recovered pass. Tech demo, not a game. Nothing here is approved. Gates are signed by humans only.",
+  "core_percentage": {
+    "core": 7,
+    "total": 16,
+    "percent": 44,
+    "over_limit": true,
+    "decision": "Q-03 open"
+  },
+  "open_questions": 8
+}

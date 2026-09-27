@@ -1,0 +1,26 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ISOLATED_OUTPUT /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/roundtrip-YvATdO
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS text export round trip
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/images/godot_icon.png
+PASS Enter submitted examples/images/godot_icon.png
+PASS image export dimensions png
+PASS lossless pixel data round trip png
+PASS image export dimensions webp
+PASS lossless pixel data round trip webp
+PASS image export dimensions jpg
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/example.zip
+PASS Enter submitted examples/misc/example.zip
+PASS exported ZIP opens
+ZIP_ORIGINAL ["top_level_file.txt", "top_level_folder/", "top_level_folder/empty_folder/", "top_level_folder/file.txt", "top_level_folder/folder_1/", "top_level_folder/folder_1/example.txt", "top_level_folder/folder_2/", "top_level_folder/folder_2/example.txt"] RESTORED ["top_level_file.txt", "top_level_folder/", "top_level_folder/", "top_level_folder/empty_folder/", "top_level_folder/empty_folder/", "top_level_folder/file.txt", "top_level_folder/folder_1/", "top_level_folder/folder_1/", "top_level_folder/folder_1/example.txt", "top_level_folder/folder_2/", "top_level_folder/folder_2/", "top_level_folder/folder_2/example.txt"]
+FAIL ZIP names and entry bytes preserved
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/3d_scenes/gltf/plastic_monobloc_chair_01_1k.gltf
+PASS Enter submitted examples/3d_scenes/gltf/plastic_monobloc_chair_01_1k.gltf
+PASS glTF generates scene
+PASS loaded scene shares preview camera viewport
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS switching away frees imported scene
+ROUNDTRIP failures=1; no visual or film verification

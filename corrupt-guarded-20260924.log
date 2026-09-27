@@ -1,0 +1,79 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FIXTURES /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/corrupt-NdyxEF
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/corrupt-NdyxEF/invalid.png
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+   GDScript backtrace (most recent call first):
+       [0] open_file (res://runtime_save_load.gd:174)
+       [1] run (res://test_corrupt.gd:13)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+   GDScript backtrace (most recent call first):
+       [0] open_file (res://runtime_save_load.gd:174)
+       [1] run (res://test_corrupt.gd:13)
+ERROR: Error loading image: '/Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/corrupt-NdyxEF/invalid.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+   GDScript backtrace (most recent call first):
+       [0] open_file (res://runtime_save_load.gd:174)
+       [1] run (res://test_corrupt.gd:13)
+ERROR: Failed to load image. Error 16
+   at: load_from_file (core/io/image.cpp:2787)
+   GDScript backtrace (most recent call first):
+       [0] open_file (res://runtime_save_load.gd:174)
+       [1] run (res://test_corrupt.gd:13)
+PASS corrupt png gives non-exportable error
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS recover after corrupt png
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/corrupt-NdyxEF/invalid.ogg
+ERROR: Ogg Vorbis decoding failed. Check that your data is a valid Ogg Vorbis audio stream.
+   at: load_from_buffer (modules/vorbis/audio_stream_ogg_vorbis.cpp:693)
+   GDScript backtrace (most recent call first):
+       [0] open_file (res://runtime_save_load.gd:188)
+       [1] run (res://test_corrupt.gd:13)
+       [2] submit (res://test_load.gd:30)
+PASS corrupt ogg gives non-exportable error
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS recover after corrupt ogg
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/corrupt-NdyxEF/invalid.zip
+PASS corrupt zip gives non-exportable error
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS recover after corrupt zip
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/corrupt-NdyxEF/invalid.ttf
+ERROR: FreeType: Error loading font: '' (face_index=0).
+   at: _ensure_cache_for_size (modules/text_server_adv/text_server_adv.cpp:1611)
+   GDScript backtrace (most recent call first):
+       [0] open_file (res://runtime_save_load.gd:254)
+       [1] run (res://test_corrupt.gd:13)
+       [2] submit (res://test_load.gd:30)
+ERROR: Condition "!_ensure_cache_for_size(fd, size, ffsd)" is true.
+   at: _font_set_opentype_feature_overrides (modules/text_server_adv/text_server_adv.cpp:4643)
+   GDScript backtrace (most recent call first):
+       [0] open_file (res://runtime_save_load.gd:254)
+       [1] run (res://test_corrupt.gd:13)
+       [2] submit (res://test_load.gd:30)
+PASS corrupt ttf gives non-exportable error
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS recover after corrupt ttf
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/corrupt-NdyxEF/invalid.gltf
+ERROR: glTF: Error parsing .gltf JSON data: Expected 'true', 'false', or 'null', got 'Plain' at line: 0
+   at: _parse (modules/gltf/gltf_document.cpp:6696)
+   GDScript backtrace (most recent call first):
+       [0] open_file (res://runtime_save_load.gd:213)
+       [1] run (res://test_corrupt.gd:13)
+       [2] submit (res://test_load.gd:30)
+ERROR: Condition "err != OK" is true. Returning: err
+   at: append_from_file (modules/gltf/gltf_document.cpp:7355)
+   GDScript backtrace (most recent call first):
+       [0] open_file (res://runtime_save_load.gd:213)
+       [1] run (res://test_corrupt.gd:13)
+       [2] submit (res://test_load.gd:30)
+PASS corrupt gltf gives non-exportable error
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS recover after corrupt gltf
+CORRUPT failures=0

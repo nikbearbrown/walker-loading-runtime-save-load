@@ -1,0 +1,123 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/missing-walker-verification.png
+ERROR: Error opening file '/Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/missing-walker-verification.png'.
+   at: load_image (core/io/image_loader.cpp:91)
+   GDScript backtrace (most recent call first):
+       [0] open_file (res://runtime_save_load.gd:170)
+       [1] _on_file_path_text_submitted (res://runtime_save_load.gd:54)
+       [2] submit (res://test_load.gd:27)
+       [3] run (res://test_errors.gd:11)
+       [4] submit (res://test_load.gd:30)
+ERROR: Failed to load image. Error 7
+   at: load_from_file (core/io/image.cpp:2787)
+   GDScript backtrace (most recent call first):
+       [0] open_file (res://runtime_save_load.gd:170)
+       [1] _on_file_path_text_submitted (res://runtime_save_load.gd:54)
+       [2] submit (res://test_load.gd:27)
+       [3] run (res://test_errors.gd:11)
+       [4] submit (res://test_load.gd:30)
+ERROR: Invalid image: null
+   at: create_from_image (scene/resources/image_texture.cpp:59)
+   GDScript backtrace (most recent call first):
+       [0] open_file (res://runtime_save_load.gd:174)
+       [1] _on_file_path_text_submitted (res://runtime_save_load.gd:54)
+       [2] submit (res://test_load.gd:27)
+       [3] run (res://test_errors.gd:11)
+       [4] submit (res://test_load.gd:30)
+PASS Enter submitted missing-walker-verification.png
+FAIL missing png gives non-exportable error
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS recover after missing png
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/missing-walker-verification.ogg
+ERROR: Can't open file from path '/Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/missing-walker-verification.ogg'.
+   at: get_file_as_bytes (core/io/file_access.cpp:907)
+   GDScript backtrace (most recent call first):
+       [0] open_file (res://runtime_save_load.gd:181)
+       [1] _on_file_path_text_submitted (res://runtime_save_load.gd:54)
+       [2] submit (res://test_load.gd:27)
+       [3] run (res://test_errors.gd:11)
+       [4] submit (res://test_load.gd:30)
+ERROR: Cannot open file '/Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/missing-walker-verification.ogg'.
+   at: load_from_file (modules/vorbis/audio_stream_ogg_vorbis.cpp:703)
+   GDScript backtrace (most recent call first):
+       [0] open_file (res://runtime_save_load.gd:181)
+       [1] _on_file_path_text_submitted (res://runtime_save_load.gd:54)
+       [2] submit (res://test_load.gd:27)
+       [3] run (res://test_errors.gd:11)
+       [4] submit (res://test_load.gd:30)
+SCRIPT ERROR: Cannot call method 'get_length' on a null value.
+   at: open_file (res://runtime_save_load.gd:189)
+   GDScript backtrace (most recent call first):
+       [0] open_file (res://runtime_save_load.gd:189)
+       [1] _on_file_path_text_submitted (res://runtime_save_load.gd:54)
+       [2] submit (res://test_load.gd:27)
+       [3] run (res://test_errors.gd:11)
+       [4] submit (res://test_load.gd:30)
+PASS Enter submitted missing-walker-verification.ogg
+FAIL missing ogg gives non-exportable error
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS recover after missing ogg
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/missing-walker-verification.zip
+ERROR: ZIPReader must be opened before use.
+   at: get_files (modules/zip/zip_reader.cpp:60)
+   GDScript backtrace (most recent call first):
+       [0] open_file (res://runtime_save_load.gd:261)
+       [1] _on_file_path_text_submitted (res://runtime_save_load.gd:54)
+       [2] submit (res://test_load.gd:27)
+       [3] run (res://test_errors.gd:11)
+       [4] submit (res://test_load.gd:30)
+PASS Enter submitted missing-walker-verification.zip
+FAIL missing zip gives non-exportable error
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS recover after missing zip
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/missing-walker-verification.txt
+PASS Enter submitted missing-walker-verification.txt
+FAIL missing txt gives non-exportable error
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS recover after missing txt
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/missing-walker-verification.ttf
+ERROR: Can't open file from path '/Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/missing-walker-verification.ttf'.
+   at: get_file_as_bytes (core/io/file_access.cpp:907)
+   GDScript backtrace (most recent call first):
+       [0] open_file (res://runtime_save_load.gd:242)
+       [1] _on_file_path_text_submitted (res://runtime_save_load.gd:54)
+       [2] submit (res://test_load.gd:27)
+       [3] run (res://test_errors.gd:11)
+       [4] submit (res://test_load.gd:30)
+PASS Enter submitted missing-walker-verification.ttf
+FAIL missing ttf gives non-exportable error
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS recover after missing ttf
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/missing-walker-verification.gltf
+ERROR: Can't open file at path "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/missing-walker-verification.gltf"
+   at: append_from_file (modules/gltf/gltf_document.cpp:7347)
+   GDScript backtrace (most recent call first):
+       [0] open_file (res://runtime_save_load.gd:203)
+       [1] _on_file_path_text_submitted (res://runtime_save_load.gd:54)
+       [2] submit (res://test_load.gd:27)
+       [3] run (res://test_errors.gd:11)
+       [4] submit (res://test_load.gd:30)
+PASS Enter submitted missing-walker-verification.gltf
+FAIL missing gltf gives non-exportable error
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS recover after missing gltf
+ERROR_PATH failures=6

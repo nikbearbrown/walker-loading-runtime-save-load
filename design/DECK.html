@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>walker-loading-runtime-save-load — recovered GDD deck</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- /gdd reverse --path godot silent · gate — unsigned at time of writing · 2026-09-27 -->
+<style>
+:root{--bg:#1f2430;--ink:#e6e9ef;--muted:#9aa3b2;--obs:#6fcf97;--prop:#f2994a;--card:#2a3040;--rule:#3a4254}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:Helvetica,Arial,sans-serif}
+.slide{display:none;min-height:100vh;box-sizing:border-box;padding:48px 64px;max-width:1360px;margin:0 auto}
+.slide.on{display:block}
+h1{font-size:42px;margin:0 0 10px}h2{font-size:32px;margin:0 0 14px}
+.kicker{color:var(--muted);font-size:15px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:16px}
+p,li{font-size:21px;line-height:1.4}li{margin:7px 0}
+.cap{color:var(--muted);font-size:15px;margin-top:6px}
+img,object{max-width:100%;max-height:68vh;border:1px solid var(--rule);background:#111}
+.solid{border:2px solid var(--obs)} .dashed{border:2px dashed var(--prop)}
+.tag{display:inline-block;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:6px}
+.obs{background:#1e3b2c;color:var(--obs)}.inf{background:#2c3446;color:#8fb3ff}.miss{background:#442b1a;color:var(--prop)}
+table{border-collapse:collapse;font-size:17px;width:100%}td,th{border-bottom:1px solid var(--rule);padding:7px 9px;text-align:left;vertical-align:top}
+.big{font-size:88px;font-weight:700;color:var(--prop);line-height:1}
+.box{padding:14px 18px;border-radius:8px;margin:10px 0;background:var(--card)}
+.zelda{border-left:6px solid var(--prop);padding-left:18px}
+a{color:#8fb3ff}
+nav{position:fixed;bottom:12px;right:20px;color:var(--muted);font-size:14px}
+@media(max-width:800px){.slide{padding:22px 16px}h1{font-size:28px}h2{font-size:23px}p,li{font-size:16px}.big{font-size:52px}}
+</style></head><body>
+<section class="slide">
+<div class="kicker">walker-loading-runtime-save-load · recovered GDD 0.1.0 · 2026-09-27 · Zelda, silent · gate — unsigned at time of writing</div>
+<h1>Any file, at run time, without importing it.</h1>
+<p>An independent copy of Godot's <code>loading/runtime_save_load</code>. <b>A tech demo, not a game</b>: a file viewer with an Export button.</p>
+<p><span class="tag obs">OBSERVED</span> in code &nbsp; <span class="tag inf">INFERRED</span> implied &nbsp; <span class="tag miss">MISSING</span> undecided</p>
+<p class="cap">No gate signed. No human review. → <a href="GDD.md">GDD.md</a></p>
+</section>
+<section class="slide">
+<div class="kicker">What exists · §1</div>
+<h2>The whole project</h2>
+<img class="solid" src="../godot/screenshots/runtime_save_load.webp" alt="Run-time File Saving and Loading upstream screenshot">
+<p class="cap"><span class="tag inf">INFERRED</span> upstream screenshot (godot/README.md:45), not a Walker capture.</p>
+</section>
+<section class="slide">
+<div class="kicker">Core loop · §3</div>
+<h2>Exists? Dispatch. Show. Export.</h2>
+<img src="diagrams/load-dispatch.svg" alt="Load and export dispatch">
+</section>
+<section class="slide">
+<div class="kicker">Mechanics · §5</div>
+<h2>What loads, what exports</h2>
+<table><tr><th>Category</th><th>Load</th><th>Export</th></tr>
+<tr><td>Images</td><td>JPG PNG WebP SVG TGA BMP</td><td>PNG JPG WebP</td></tr>
+<tr><td>Audio</td><td>Ogg MP3 WAV</td><td>disabled</td></tr>
+<tr><td>3D</td><td>glTF GLB FBX</td><td>glTF GLB</td></tr>
+<tr><td>Fonts</td><td>TTF OTF WOFF(2) PFB PFM FNT</td><td>disabled</td></tr>
+<tr><td>ZIP / text</td><td>yes</td><td>yes</td></tr></table>
+<p class="cap"><span class="tag obs">OBSERVED</span> runtime_save_load.gd:80-294</p>
+</section>
+<section class="slide">
+<div class="kicker">The Walker changes · §1, §5</div>
+<h2>Five guards and two fixes</h2>
+<ul><li>missing file · empty image · null audio · zero-face font · ZIP open failure → error view, Export locked</li>
+<li>imported scenes parented to the preview SubViewport and freed on switch</li>
+<li>ZIP export: directories once (was 12 entries from 8)</li></ul>
+<p class="cap">Q-04: teach these, or note them only?</p>
+</section>
+<section class="slide">
+<div class="kicker">Evidence · §16</div>
+<h2>28 · 20 · 30 · 15</h2>
+<p>loading · export round trips · missing files · corrupt files. <span class="tag obs">OBSERVED</span> logs.</p>
+<p><b>Not verified:</b> audio listening, image pixels on screen, 3D materials, FBX, export permission failures, films. Export checks call the handler directly, not captured UI.</p>
+</section>
+<section class="slide">
+<div class="kicker">Features · §11</div>
+<h2 class="big">44%</h2>
+<p>CORE 7 of 16, over the 40% line. Tags left as they are (silent). <span class="tag miss">Q-03</span> (1) retag text (and fonts) as IMPORTANT, or (2) keep seven and give the films the time.</p>
+<img src="diagrams/feature-map.svg" alt="Feature map">
+</section>
+<section class="slide">
+<div class="kicker">Risks · §14</div>
+<h2>Top three</h2>
+<ul><li><b>R-01</b> "loads user files" becomes "safe for user files": guards are not a sandbox.</li>
+<li><b>R-03</b> CC BY-SA audio attribution missed in film descriptions (Q-07).</li>
+<li><b>R-04</b> direct-handler exports read as UI verification.</li></ul>
+<p class="cap">Also R-02 <span class="tag inf">INFERRED</span>: FBX export filter offers .fbx but writes via GLTFDocument.</p>
+</section>
+<section class="slide">
+<div class="kicker">Open questions · decisions.md</div>
+<h2>Eight for a person</h2>
+<ul><li><span class="tag miss">Q-01</span> film demo or UGC basis?</li><li><span class="tag miss">Q-02</span> learner outcomes</li><li><span class="tag miss">Q-03</span> CORE overage</li><li><span class="tag miss">Q-04</span> teach the fixes?</li>
+<li><span class="tag miss">Q-05</span> FBX</li><li><span class="tag miss">Q-06</span> export failures</li><li><span class="tag miss">Q-07</span> CC BY-SA credit</li><li><span class="tag miss">Q-08</span> done, and who signs</li></ul>
+</section>
+<section class="slide">
+<div class="kicker">Zelda's read</div>
+<div class="zelda"><h2>Seven categories in one film is a list, not a lesson.</h2>
+<p>Walker changed this demo more than any other in the batch; say so. And never let "loads user files" drift into "safe for user files".</p></div>
+</section>
+<nav id="n"></nav>
+<script>
+(function(){var s=[].slice.call(document.querySelectorAll('.slide')),i=0,n=document.getElementById('n');
+function go(k){s[i].classList.remove('on');i=Math.max(0,Math.min(s.length-1,k));s[i].classList.add('on');n.textContent=(i+1)+' / '+s.length+'  ·  ← → or space';}
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){e.preventDefault();go(i+1);}else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();go(i-1);}else if(e.key==='Home'){go(0);}else if(e.key==='End'){go(s.length-1);}});
+document.addEventListener('click',function(e){if(e.target.closest('a'))return;go(e.clientX>window.innerWidth/2?i+1:i-1);});go(0);})();
+</script>
+</body></html>

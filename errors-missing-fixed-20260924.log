@@ -1,0 +1,51 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/missing-walker-verification.png
+PASS Enter submitted missing-walker-verification.png
+PASS missing png gives non-exportable error
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS recover after missing png
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/missing-walker-verification.ogg
+PASS Enter submitted missing-walker-verification.ogg
+PASS missing ogg gives non-exportable error
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS recover after missing ogg
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/missing-walker-verification.zip
+PASS Enter submitted missing-walker-verification.zip
+PASS missing zip gives non-exportable error
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS recover after missing zip
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/missing-walker-verification.txt
+PASS Enter submitted missing-walker-verification.txt
+PASS missing txt gives non-exportable error
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS recover after missing txt
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/missing-walker-verification.ttf
+PASS Enter submitted missing-walker-verification.ttf
+PASS missing ttf gives non-exportable error
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS recover after missing ttf
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/missing-walker-verification.gltf
+PASS Enter submitted missing-walker-verification.gltf
+PASS missing gltf gives non-exportable error
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS recover after missing gltf
+ERROR_PATH failures=0

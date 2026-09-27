@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-labelledby="t d">
+<title id="t">Recovered load / export dispatch — Run-time File Saving and Loading</title>
+<desc id="d">One path field; the extension picks the loader; any failure locks Export. IDs: M-01..M-08, S-01, S-02, F-14</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e6e9ef"/></marker><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f2994a"/></marker></defs>
+<rect width="960" height="540" fill="#1f2430"/>
+<text x="24" y="34" font-family="Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#e6e9ef">Recovered load / export dispatch — Run-time File Saving and Loading</text>
+<text x="24" y="56" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#9aa3b2">One path field; the extension picks the loader; any failure locks Export.</text>
+<text x="936" y="526" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">solid = observed in code · dashed = proposed / not present · refs: M-01..M-08, S-01, S-02, F-14</text>
+<line x1="224.0" y1="122.0" x2="266.0" y2="122.0" stroke="#e6e9ef" stroke-width="1.8" marker-end="url(#a)"/>
+<line x1="454.0" y1="122.0" x2="496.0" y2="122.0" stroke="#e6e9ef" stroke-width="1.8" marker-end="url(#a)"/>
+<text x="475.0" y="116.0" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2" paint-order="stroke" stroke="#1f2430" stroke-width="4">yes</text>
+<line x1="360.0" y1="158.0" x2="360.0" y2="226.0" stroke="#e6e9ef" stroke-width="1.8" marker-end="url(#a)"/>
+<text x="360.0" y="186.0" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2" paint-order="stroke" stroke="#1f2430" stroke-width="4">no</text>
+<line x1="540.0" y1="158.0" x2="426.7" y2="226.0" stroke="#e6e9ef" stroke-width="1.8" marker-end="url(#a)"/>
+<text x="483.3" y="186.0" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2" paint-order="stroke" stroke="#1f2430" stroke-width="4">decode fails</text>
+<line x1="704.0" y1="108.7" x2="756.0" y2="102.0" stroke="#e6e9ef" stroke-width="1.8" marker-end="url(#a)"/>
+<line x1="704.0" y1="128.7" x2="756.0" y2="132.0" stroke="#e6e9ef" stroke-width="1.8" marker-end="url(#a)"/>
+<line x1="704.0" y1="148.6" x2="756.2" y2="162.0" stroke="#e6e9ef" stroke-width="1.8" marker-end="url(#a)"/>
+<line x1="680.4" y1="158.0" x2="796.4" y2="210.0" stroke="#e6e9ef" stroke-width="1.8" marker-end="url(#a)"/>
+<line x1="656.2" y1="158.0" x2="812.5" y2="258.0" stroke="#e6e9ef" stroke-width="1.8" marker-end="url(#a)"/>
+<line x1="643.3" y1="158.0" x2="821.2" y2="306.0" stroke="#e6e9ef" stroke-width="1.8" marker-end="url(#a)"/>
+<line x1="600.0" y1="158.0" x2="600.0" y2="396.0" stroke="#e6e9ef" stroke-width="1.8" marker-end="url(#a)"/>
+<text x="600.0" y="271.0" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2" paint-order="stroke" stroke="#1f2430" stroke-width="4">viewer shown</text>
+<line x1="704.0" y1="441.0" x2="756.0" y2="443.5" stroke="#f2994a" stroke-width="1.8" stroke-dasharray="6 5" marker-end="url(#p)"/>
+<line x1="496.0" y1="432.5" x2="454.0" y2="431.1" stroke="#f2994a" stroke-width="1.8" stroke-dasharray="6 5" marker-end="url(#p)"/>
+<rect x="30" y="90" width="190" height="64" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="125.0" y="112" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">Path or Browse</text>
+<text x="125.0" y="128" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">M-01 · gd:49-60</text>
+<rect x="270" y="90" width="180" height="64" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="360.0" y="112" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">File exists?</text>
+<text x="360.0" y="128" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">Walker guard :154</text>
+<rect x="500" y="90" width="200" height="64" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="600.0" y="112" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">Dispatch by extension</text>
+<text x="600.0" y="128" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">open_file :151-294</text>
+<rect x="270" y="230" width="180" height="72" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="360.0" y="252" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">Error view</text>
+<text x="360.0" y="268" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">Export disabled</text>
+<text x="360.0" y="284" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">:144-148</text>
+<rect x="760" y="70" width="180" height="40" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="850.0" y="92" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">Image ×7 formats</text>
+<rect x="760" y="118" width="180" height="40" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="850.0" y="140" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">Audio ×3 (no export)</text>
+<rect x="760" y="166" width="180" height="40" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="850.0" y="188" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">glTF/GLB/FBX scene</text>
+<rect x="760" y="214" width="180" height="40" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="850.0" y="236" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">Font (no export)</text>
+<rect x="760" y="262" width="180" height="40" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="850.0" y="284" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">ZIP list + preview</text>
+<rect x="760" y="310" width="180" height="40" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="850.0" y="332" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">Text fallback</text>
+<rect x="500" y="400" width="200" height="72" rx="8" fill="#2a3040" stroke="#6fcf97" stroke-width="2"/>
+<text x="600.0" y="422" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">Export</text>
+<text x="600.0" y="438" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">text · png/jpg/webp</text>
+<text x="600.0" y="454" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">gltf/glb · zip</text>
+<rect x="760" y="420" width="180" height="56" rx="8" fill="#2a3040" stroke="#f2994a" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="850.0" y="442" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">export failure handling</text>
+<text x="850.0" y="458" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">absent (Q-06)</text>
+<rect x="270" y="400" width="180" height="56" rx="8" fill="#2a3040" stroke="#f2994a" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="360.0" y="422" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6e9ef">FBX export</text>
+<text x="360.0" y="438" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#9aa3b2">writes glTF? (Q-05)</text>
+</svg>

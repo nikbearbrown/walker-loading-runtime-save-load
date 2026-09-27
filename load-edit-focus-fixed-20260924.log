@@ -1,0 +1,45 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/file.txt
+PASS Enter submitted examples/misc/file.txt
+PASS text submission loads exact source
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/images/godot_icon.png
+PASS Enter submitted examples/images/godot_icon.png
+PASS image loaded png
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/images/godot_icon.jpg
+PASS Enter submitted examples/images/godot_icon.jpg
+PASS image loaded jpg
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/images/godot_icon.webp
+PASS Enter submitted examples/images/godot_icon.webp
+PASS image loaded webp
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/images/godot_icon.svg
+PASS Enter submitted examples/images/godot_icon.svg
+PASS image loaded svg
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/images/godot_icon.tga
+PASS Enter submitted examples/images/godot_icon.tga
+PASS image loaded tga
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/images/godot_icon.bmp
+PASS Enter submitted examples/images/godot_icon.bmp
+PASS image loaded bmp
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/fonts/inter_black.otf
+PASS Enter submitted examples/fonts/inter_black.otf
+PASS runtime font loaded inter_black.otf
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/fonts/newsreader_9pt_regular.ttf
+PASS Enter submitted examples/fonts/newsreader_9pt_regular.ttf
+PASS runtime font loaded newsreader_9pt_regular.ttf
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/fonts/hack_regular.woff2
+PASS Enter submitted examples/fonts/hack_regular.woff2
+PASS runtime font loaded hack_regular.woff2
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/audio/item_spawn.ogg
+PASS Enter submitted examples/audio/item_spawn.ogg
+PASS audio decoded ogg
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/audio/item_spawn.mp3
+PASS Enter submitted examples/audio/item_spawn.mp3
+PASS audio decoded mp3
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/audio/item_spawn.wav
+PASS Enter submitted examples/audio/item_spawn.wav
+PASS audio decoded wav
+Opening: /Users/bear/Documents/CoWork/bear-textbooks/books/walker-loading-runtime-save-load/godot/examples/misc/example.zip
+PASS Enter submitted examples/misc/example.zip
+PASS ZIP archive entries loaded
+HEADLESS LOAD ONLY; no exports, playback, glTF or pixels verified; failures=0
